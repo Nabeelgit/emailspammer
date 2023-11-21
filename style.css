@@ -1,0 +1,54 @@
+body {
+    font-family: "Roboto Mono", monospace;
+}
+.container, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.red-btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.red-btn:hover,
+.red-btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.red-btn:active {
+  opacity: .5;
+}
+.email-inp {
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: normal;
+    height: 52px;
+    min-width: 340px;
+    border-radius: 2rem;
+}
